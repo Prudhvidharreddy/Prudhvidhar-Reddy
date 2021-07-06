@@ -1,0 +1,8 @@
+Needed time for { 
+                  1_Requirements,
+                  2_Architecture,
+                  4_TestPlanAndOutput,
+                  5_Report.
+                 }     
+
+You can continue with 3_Implementation and 6 _Images and videos..... 
