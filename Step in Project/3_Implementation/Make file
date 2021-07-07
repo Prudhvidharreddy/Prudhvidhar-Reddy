@@ -1,0 +1,19 @@
+# this is my makefile 
+CC=gcc
+
+all:hello
+
+hello: main.o function1.o function2.o
+	$(CC) main.o funciton1.o function2.o -o a
+
+main.o: main.c
+	$(CC) -c main.c
+
+function1.0: function1.c
+	$(CC) -c function1.c
+
+function1.0: function1.c
+	$(CC) -c function1.c
+
+clean:
+	rm -rf *o a
