@@ -1,0 +1,2 @@
+void drawBoard();
+int checkWin();
