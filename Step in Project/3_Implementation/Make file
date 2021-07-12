@@ -1,19 +1,17 @@
-# this is my makefile 
-CC=gcc
+SRC=project_main.c\
+src/sum.c\
+test/test_sum.c\
+unity/unity.c\
 
-all:hello
 
-hello: main.o function1.o function2.o
-	$(CC) main.o funciton1.o function2.o -o a
+INC=-Iinc\
+-Itest\
+-Iunity
 
-main.o: main.c
-	$(CC) -c main.c
+#INCLUDE_LIBS=-lcunit
 
-function1.0: function1.c
-	$(CC) -c function1.c
-
-function1.0: function1.c
-	$(CC) -c function1.c
+all:$(SRC)
+	gcc $(SRC) $(INC) -o amit.exe
 
 clean:
-	rm -rf *o a
+	rm -r *.exe
