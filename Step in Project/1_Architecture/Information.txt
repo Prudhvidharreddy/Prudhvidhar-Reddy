@@ -1,8 +1,0 @@
-Needed time for { 
-               
-                  Architecture,
-                  TestPlanAndOutput,
-                
-                 }     
-
-You can continue with 3_Implementation and 6 _Images and videos..... 
