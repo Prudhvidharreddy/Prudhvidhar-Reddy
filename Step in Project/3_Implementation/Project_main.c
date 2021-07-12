@@ -2,14 +2,15 @@
 #include <conio.h>
 #include <windows.h>
 #include <stdlib.h>
-#include <MMsystem.h>
+#include"sum.h"
+
 
 char square[10] = {'o','1','2','3','4','5','6','7','8','9'};
 int checkWin();
 void drawBoard();
 
 int main(){
-	system("color 4a");
+	
 	int player = 1, i ,choice;
 	char mark; // X,O
 	do {
@@ -36,7 +37,7 @@ int main(){
 			square[8] = mark;
 			else if(choice == 9 && square[9] == '9')
 			square[9] = mark;
-
+			
 			else {
 				printf("Invalid option !");
 				player--;
@@ -44,19 +45,22 @@ int main(){
 			}
 			i = checkWin();
 			player++;	
-
+		
 	}while(i == -1);
-
+	
 	drawBoard();
 	if(i==1){
-		printf("==>Player %d won",--player);
-		PlaySound(TEXT("C:\\Users\\dell\\Music\\win.wav"),NULL,SND_SYNC);
+        int get=sum(player);
+		printf("==>Player %d won",get);
+		
 	}
 	else {
 		printf("==>Game draw");
 	}
-		getch();
-		return 0;
+    test_main();
+	getch();
+	return 0;
+        
 }
 int checkWin(){
 	if(square[1] == square[2] && square[2] == square[3])
