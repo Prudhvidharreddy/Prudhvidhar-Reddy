@@ -41,7 +41,7 @@ int main()
     // Function call 
     calculator_operations();
         printf("\n");
-        printf("Enter the Calculator Operation you want to do: ");
+        printf(" Enter the Calculator Operation you want to do: ");
  
         ch=getch();  //to enter the operation by user
  
