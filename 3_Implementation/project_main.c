@@ -1,6 +1,6 @@
 /**
  * @file project_main.c
- * @author Amit Kumar Sahni (sahniamitkumar2017@gmail.com)
+ * @author Prudhvidhar Reddy (prudhvidharreddy13@gmail.com)
  * @brief 
  * @version 0.1
  * @date 2021-07-13
@@ -105,38 +105,38 @@ void calculator_operations()
  
 void addition() //for addition operation
 {
-    int a=10,b=43;
+    int c=10,d=43;
     
-    int total=sum(a,b);
+    int total=sum(c,d);
     printf("Value = %d",total);
 }
  
 void subtraction() //for subtraction operation
-{ int a=10,b=43;
+{ int c=10,d=43;
     
-    int total=sub(a,b);
+    int total=sub(c,d);
     printf("Value = %d",total);
 }
  
 void multiplication() //for multiplication operation
 {
-    int a=10,b=43;
+    int c=10,d=43;
     
-    int total=mul(a,b);
+    int total=mul(c,d);
     printf("Value = %d",total);
 }
 
  
 void modulus() //for modulus operation
 {
-    int a=10,b=43;
+    int c=10,d=43;
     
-    int total=mod(a,b);
+    int total=mod(c,d);
     printf("Value = %d",total);
 }
 
 void factorial(){ ////for factorial operation
-    int a=10;
+    int d=10;
 
     int total=fact(10);
     printf("%d",total);
