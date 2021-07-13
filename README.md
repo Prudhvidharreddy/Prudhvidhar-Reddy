@@ -4,4 +4,4 @@ It's about my Mini Project "Calculator". It contains operations such as addtion,
 
 |Buid status |Code Inspector |codacy|Code Quality|Unit Testing Unity|
 |------------|---------------|-----------|------------|------------------|
-|[![C/C++ CI](https://github.com/Prudhvidharreddy/Prudhvidhar-Reddy/actions/workflows/cppbuild.yml/badge.svg)](https://github.com/Prudhvidharreddy/Prudhvidhar-Reddy/actions/workflows/cppbuild.yml)|![Code Quality Score](https://www.code-inspector.com/project/25173/score/svg)
+|[![C/C++ CI](https://github.com/Prudhvidharreddy/Prudhvidhar-Reddy/actions/workflows/cppbuild.yml/badge.svg)](https://github.com/Prudhvidharreddy/Prudhvidhar-Reddy/actions/workflows/cppbuild.yml)|![Code Quality Score](https://www.code-inspector.com/project/25173/score/svg)![code Grade](https://www.code-inspector.com/project/25173/status/svg)
